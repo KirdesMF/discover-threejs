@@ -1,0 +1,22 @@
+:root {
+  --container-background: hsl(207, 66%, 64%);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+#container {
+  position: absolute;
+  inset: 0;
+  background: var(--container-background);
+}
